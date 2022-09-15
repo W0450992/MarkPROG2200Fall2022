@@ -1,0 +1,8 @@
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\bin\Debug\FirstApp.exe.config
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\bin\Debug\FirstApp.exe
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\bin\Debug\FirstApp.pdb
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.AssemblyReference.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.SuggestedBindingRedirects.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\obj\Debug\FirstApp.exe
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\FirstApp\FirstApp\obj\Debug\FirstApp.pdb

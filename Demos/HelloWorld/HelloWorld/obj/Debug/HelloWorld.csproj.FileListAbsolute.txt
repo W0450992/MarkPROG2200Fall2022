@@ -1,0 +1,8 @@
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+E:\NSCC\Fall Term 2022\PROG2200 Advanced OOP\Demos\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
