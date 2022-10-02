@@ -11,27 +11,31 @@ namespace Passcode
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Enter the passcode");
-            var code = Console.ReadLine();
+            var code = "";
+            while (code != "secret") {
 
-            if (code == "secret")
-            {
-                Console.WriteLine("Authenticated");
-                Console.WriteLine("Change passcode? (yes or no)");
-                var yesOrNo = Console.ReadLine();
-                if (yesOrNo == "yes")
+                Console.WriteLine("Enter the passcode");
+                code = Console.ReadLine();
+
+                if (code == "secret")
                 {
-                    Console.WriteLine("Type new passcode.");
-                    code = Console.ReadLine();
+                    Console.WriteLine("Authenticated");
+                    Console.WriteLine("Change passcode? (yes or no)");
+                    var yesOrNo = Console.ReadLine();
+                    if (yesOrNo == "yes")
+                    {
+                        Console.WriteLine("Type new passcode.");
+                        code = Console.ReadLine();
+                    }
+
+
+                }
+                else
+                {
+                    Console.WriteLine("Wrong passcode.");
                 }
 
-
             }
-            else
-            {
-                Console.WriteLine("Wrong passcode.");
-            }
-
         }
     }
 }
