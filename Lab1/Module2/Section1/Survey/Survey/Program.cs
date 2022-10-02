@@ -77,11 +77,47 @@ namespace Survey
             Console.WriteLine("What is your name?");
             data.Name = Console.ReadLine();
 
+            bool isInt = false;
             Console.WriteLine("What is your birth day? ");
-            data.BirthDay = int.Parse(Console.ReadLine());
+            isInt = int.TryParse(Console.ReadLine(), out data.BirthDay);
+            Console.WriteLine("Please enter your birth day again");
+            if (isInt == true)
+            {
+                data.BirthDay = int.Parse(Console.ReadLine());
+            }
+            else
+            {
+                Console.WriteLine("Please enter a number");
+                System.Environment.Exit(1);
+            }
 
+            //bool correctInput1 = false;
+            //while (correctInput1 == false) // this loop will continue until the user enters a number
+            //{
+            //    Console.Write("Enter Year: ");
+            //    correctInput1 = int.TryParse(Console.ReadLine(), out data.BirthDay); // if the parsing was successful it returns true
+
+            //    if (correctInput1 == false)
+            //    {
+            //        Console.Write("Your input was not a number");
+            //    }
+            //}
+
+            isInt = false;
             Console.WriteLine("What is your birth month? (1-12)");
-            data.BirthMonth = int.Parse(Console.ReadLine());
+            isInt = int.TryParse(Console.ReadLine(), out data.BirthMonth);
+            Console.WriteLine("Please enter your birth month again");
+            if (isInt == true)
+            {
+                data.BirthMonth = int.Parse(Console.ReadLine());
+            }
+            else
+
+            {
+                Console.WriteLine("Please enter a number");
+                System.Environment.Exit(1);
+            }
+            //data.BirthMonth = int.Parse(Console.ReadLine());
 
             data.display();
         }
