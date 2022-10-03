@@ -41,37 +41,48 @@ namespace Survey
             Console.WriteLine("Your birth day is: {0}", BirthDay);
             Console.WriteLine("Your birth month is: {0}", BirthMonth);
 
-            if ((BirthMonth == 1 && BirthDay >= 20) || (BirthMonth == 2 && BirthDay <= 18)){
+            if ((BirthMonth == (int) months.january && BirthDay >= 20) || (BirthMonth == (int)months.february && BirthDay <= 18))
+            {
                 Console.WriteLine("You're zodiac sign is: Aquarius");
             }
-            else if((BirthMonth == 2 && BirthDay >= 19) || (BirthMonth == 3 && BirthDay <= 20)){
+            else if ((BirthMonth == (int) months.february && BirthDay >= 19) || (BirthMonth == (int) months.march && BirthDay <= 20))
+            {
                 Console.WriteLine("You're zodiac sign is: Pisces");
             }
-            else if((BirthMonth == 3 && BirthDay >= 21) || (BirthMonth == 4 && BirthDay <= 19)){
+            else if ((BirthMonth == (int) months.march && BirthDay >= 21) || (BirthMonth == (int) months.april && BirthDay <= 19))
+            {
                 Console.WriteLine("You're zodiac sign is: Aries");
             }
-            else if((BirthMonth == 4 && BirthDay >= 20) || (BirthMonth == 5 && BirthDay <= 20)){
+            else if ((BirthMonth == (int) months.april && BirthDay >= 20) || (BirthMonth == (int) months.may && BirthDay <= 20))
+            {
                 Console.WriteLine("You're zodiac sign is: Taurus");
             }
-            else if((BirthMonth == 5 && BirthDay >= 21) || (BirthMonth == 6 && BirthDay <= 20)){
+            else if ((BirthMonth == (int) months.may && BirthDay >= 21) || (BirthMonth == (int) months.june && BirthDay <= 20))
+            {
                 Console.WriteLine("You're zodiac sign is: Gemeni");
             }
-            else if((BirthMonth == 6 && BirthDay >= 21) || (BirthMonth == 7 && BirthDay <= 22)){
+            else if ((BirthMonth == (int)months.june && BirthDay >= 21) || (BirthMonth == (int)months.july && BirthDay <= 22))
+            {
                 Console.WriteLine("You're zodiac sign is: Cancer");
             }
-            else if((BirthMonth == 7 && BirthDay >= 23) || (BirthMonth == 8 && BirthDay <= 22)){
+            else if ((BirthMonth == (int)months.july && BirthDay >= 23) || (BirthMonth == (int)months.august && BirthDay <= 22))
+            {
                 Console.WriteLine("You're zodiac sign is: Leo");
             }
-            else if((BirthMonth == 8 && BirthDay >= 23) || (BirthMonth == 9 && BirthDay <= 22)){
+            else if ((BirthMonth == (int)months.august && BirthDay >= 23) || (BirthMonth == (int)months.september && BirthDay <= 22))
+            {
                 Console.WriteLine("You're zodiac sign is: Virgo");
             }
-            else if((BirthMonth == 9 && BirthDay >= 23) || (BirthMonth == 10 && BirthDay <= 22)){
+            else if ((BirthMonth == (int)months.september && BirthDay >= 23) || (BirthMonth == (int)months.october && BirthDay <= 22))
+            {
                 Console.WriteLine("You're zodiac sign is: Libra");
             }
-            else if((BirthMonth == 10 && BirthDay >= 23) || (BirthMonth == 11 && BirthDay <= 21)){
+            else if ((BirthMonth == (int)months.october && BirthDay >= 23) || (BirthMonth == (int)months.november && BirthDay <= 21))
+            {
                 Console.WriteLine("You're zodiac sign is: Scorpio");
             }
-            else if((BirthMonth == 11 && BirthDay >= 22) || (BirthMonth == 12 && BirthDay <= 21)){
+            else if ((BirthMonth == (int)months.november && BirthDay >= 22) || (BirthMonth == (int)months.december && BirthDay <= 21))
+            {
                 Console.WriteLine("You're zodiac sign is: Sagittarius");
             }
             else
@@ -85,7 +96,7 @@ namespace Survey
     internal class Program
     {
 
-        
+
 
 
         static void Main(string[] args)
