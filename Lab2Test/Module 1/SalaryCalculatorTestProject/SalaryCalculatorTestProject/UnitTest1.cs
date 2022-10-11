@@ -128,4 +128,6 @@ namespace SalaryCalculatorTestProject2
 
 }
 
-
+// i created the class library by right clicking the project and clicking add then finding the class library with .net framework
+// you can add a reference by right clicking the project and clicking add then reference and it will show up under projects
+//the benefit of using interfaces is it is a better alternative to implement multiple inheritances
