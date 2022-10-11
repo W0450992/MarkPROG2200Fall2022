@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalculatorTestProject", "SalaryCalculatorTestProject\SalaryCalculatorTestProject.csproj", "{0CE3C548-BD39-4B17-AF31-C58A1A6DA0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{78280874-9399-4E40-A033-CFDD744945BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CE3C548-BD39-4B17-AF31-C58A1A6DA0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE3C548-BD39-4B17-AF31-C58A1A6DA0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE3C548-BD39-4B17-AF31-C58A1A6DA0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE3C548-BD39-4B17-AF31-C58A1A6DA0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78280874-9399-4E40-A033-CFDD744945BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78280874-9399-4E40-A033-CFDD744945BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78280874-9399-4E40-A033-CFDD744945BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78280874-9399-4E40-A033-CFDD744945BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {656C1D47-CFE1-4EC3-AF18-7E713E86EAAD}
+	EndGlobalSection
+EndGlobal
